@@ -1,0 +1,16 @@
+package listasenlazadas;
+
+public class Nodo {
+     int Dato;
+     NodoLista Siguiente;
+     
+     public Nodo (int d){
+       this.Dato=d;
+       this.Siguiente=null;
+}
+   public Nodo (int d,Nodo n){
+       Dato=d;
+       Siguiente=n;
+   }
+    
+}
